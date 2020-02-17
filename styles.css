@@ -1,0 +1,110 @@
+.header {
+  font-size: 38px;
+  color:#dea216;
+  border:20px dotted #212121;
+  background:#fdffba; 
+   text-shadow: 8px -7px 13px #ffd447;
+  font-family: Arial Black;
+  text-align: center;
+}
+
+.body {
+  background-color: #eba434;
+}
+
+
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 5px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #f5e042;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #9c6d00;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#uwu {
+  font-family: Arial Black;
+  font-size: 29px;
+  color: #574b00;
+  text-align: center;
+}
+
+.ducky {
+  font-family: Comic Sans MS;
+  color: #574b00;
+  text-align: center;
+}
+
+#family {
+  height: 340px;
+  width: 440px;
+  display: block;
+}
+
+#family {
+  border: 10px dotted #c7ae08;
+  margin-left: 35px;
+}
+
+#swim {
+  border: 10px dotted #f7d600;
+  text-align: center;
+}
+
+#ducky {
+  border: 9px dotted #ffef85;
+}
+
+#quack {
+  text-align: center;
+  font-family: Comic Sans MS;
+  color: #e3b602;
+
+}
+
+#spaceduck {
+  border: 9px dotted #6e5f00;
+  float:left;
+}
+
+#spaceduck {
+  height:250px;
+  width: 250px;
+}
+
+#qqqqq {
+  border: 9px dotted #6e5f00;
+  float: right;
+}
+
+#qqqqq {
+  height: 250px;
+  width: 250px;
+}
