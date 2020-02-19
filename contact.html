@@ -2,6 +2,20 @@
    <html>
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
+        <script>
+        var mysrc = "mars.jpg";
+        function changeImage() {
+            if (mysrc == "mars.jpg") {
+                document.images["pic"].src = "https://tr.rbxcdn.com/18fff848f525e3a9930646d66d97652c/420/420/Decal/Png";
+                document.images["pic"].alt = "Mars";
+                mysrc = "earth.jpg";
+            } else {
+                document.images["pic"].src = "https://media1.tenor.com/images/d44b7fb9c3d6541bfe31b65df136471c/tenor.gif?itemid=11216394";
+                document.images["pic"].alt = "Earth";
+                mysrc = "mars.jpg";
+            }
+        }
+    </script>
   </head>
   
   <body>
@@ -14,7 +28,21 @@
      </div>
      </div>
      
-     <h3>Random contact names</h3>
+          <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="news.html">News</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+     
+     
+     <h2>Random contact names</h2>
+    <h3>-muffon button</h3>
     
+       <img src="https://tr.rbxcdn.com/18fff848f525e3a9930646d66d97652c/420/420/Decal/Png"
+		alt="Earth" id="pic" class="portrait"
+		onclick="changeImage()"
+		width="464px" height="298px"
+		style="cursor:pointer">
     
   </body>
