@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+   <html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  
+  <body>
+         <div id=banner>
+ <div class="headER">
+ <div class="header-logo">Contact Form</div>
+   <div class="header-list">
+     </div>
+     </div>
+     </div>
+     <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="news.html">News</a></li>
+  <li><a href="muffins.html">Muffins</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="contacts.html">Contact form</a></li>
+</ul>
+
+     
+    <div class="container">
+  <form action="action_page.php">
+
+    <label id="first" for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your First Name...">
+
+    <label id="last" for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your Last Name...">
+
+    <label id="planet" for="country">Country/Planet</label>
+    <select id="country" name="country">
+      <option value="newzealand">New Zealand</option>
+      <option value="Australia">Space Australia</option>
+      <option value="Lasvegas">Space Vegas</option>
+      <option value="Centralcity">Central City</option>
+      <option value="Sadala">Sadala</option>
+      <option value="Tatoo">Tatooine</option>
+      <option value="Stars">Death Star</option>
+      <option value="Piccolo">Namek</option>
+      <option value="livelong">Vulcan</option>
+    </select>
+    
+     <label id="mail" for="E-mail">E-mail</label>
+    <input type="text" id="Email" name="lastname" placeholder="Your E-mail adress">
+
+    <label id="sub" for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something........Please.....QUACK!" style="height:213px"></textarea>
+
+   <button class="button" type="submit" onclick="window.location.href = 'submit.html';" formaction="submit.html">Submit</button>
+
+  </form>
+</div>
+    
+    
+  </body>
