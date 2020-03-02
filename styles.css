@@ -1,15 +1,18 @@
 .header {
   font-size: 38px;
   color:#dea216;
-  border:20px dotted #212121;
-  background:#fdffba; 
+  border:10px solid #212121;
+  background: url(https://i.imgur.com/jkMa8Zf.gif); 
    text-shadow: 8px -7px 13px #ffd447;
   font-family: Arial Black;
   text-align: center;
+  padding-top:34px;
+  height:250px;
+
 }
 
 .body {
-  background-color: #eba434;
+  background-color: #ff5252;
 }
 
 
@@ -41,7 +44,8 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #9c6d00;
+  background-color: #ccfffe;
+  color: #200061;
 }
 
 .active {
@@ -66,6 +70,7 @@ li a:hover {
   height: 340px;
   width: 440px;
   display: block;
+  float: right;
 }
 
 #family {
@@ -80,6 +85,7 @@ li a:hover {
 
 #ducky {
   border: 9px dotted #ffef85;
+  float: right;
 }
 
 #quack {
@@ -91,7 +97,7 @@ li a:hover {
 
 #spaceduck {
   border: 9px dotted #6e5f00;
-  float:left;
+  float:right;
 }
 
 #spaceduck {
@@ -108,3 +114,126 @@ li a:hover {
   height: 250px;
   width: 250px;
 }
+
+
+/**contact.html styling starts here**/
+
+.head {
+    font-size: 38px;
+  color:#dea216;
+  border:20px double #212121;
+  background:#fdffba; 
+   text-shadow: 8px -7px 13px #ffd447;
+  font-family: Arial Black;
+  text-align: center;
+}
+
+/*news.html styling starts here*/
+
+.headER {
+      font-size: 38px;
+  color:#dea216;
+  border:20px double #212121;
+  background:#fdffba; 
+   text-shadow: 8px -7px 13px #ffd447;
+  font-family: Arial Black;
+  text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 13px;
+  border: 1px solid #2d0082; 
+  border-radius: 3px;
+  box-sizing: border-box; 
+  margin-top: 7px; 
+  margin-bottom: 13px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #00025c;
+  color: #e4b8ff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #f2ff00;
+  color: #8c7500;
+}
+
+
+.container {
+  border-radius: 3px;
+  background-image: url(https://bakerbynature.com/wp-content/uploads/2019/03/blueberrybananamuffins12-1-of-1.jpg);
+  padding: 13px;
+}
+
+#first {
+  color: #ffffff;
+}
+
+#last {
+  color: #ffffff;
+}
+
+#planet {
+    color: #ffffff;
+}
+
+#mail {
+    color: #ffffff;
+}
+
+#sub {
+    color: #ffffff;
+}
+
+#country {
+  background-color: #ffd1fa;
+}
+
+#fname {
+  background-color: #dad1ff;
+}
+
+#lname {
+  background-color: #dad1ff;
+}
+
+#Email {
+  background-color: #dad1ff;
+}
+
+#subject {
+  background-color:#d791ff;
+}
+
+ .button {
+ background-color: #44005c;
+ border: double #d14fff;
+ color: #ebb3ff;
+ padding: 20px 34px;
+ text-align: center;
+ display: inline-block;
+ font-size: 13px;
+ margin: 4px 2px;
+ cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
