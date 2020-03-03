@@ -1,49 +1,50 @@
 <!DOCTYPE html>
-   <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-        <script>
-        var mysrc = "muffin.jpg";
-        function changeImage() {
-            if (mysrc == "mars.jpg") {
-                document.images["pic"].src = "https://tr.rbxcdn.com/18fff848f525e3a9930646d66d97652c/420/420/Decal/Png";
-                document.images["pic"].alt = "muffin";
-                mysrc = "earth.jpg";
-            } else {
-                document.images["pic"].src = "https://media1.tenor.com/images/d44b7fb9c3d6541bfe31b65df136471c/tenor.gif?itemid=11216394";
-                document.images["pic"].alt = "button";
-                mysrc = "mars.jpg";
-            }
-        }
-    </script>
-  </head>
-  
-  <body>
-    
-     <div id=banner>
- <div class="head">
- <div class="header-logo">Muffin Button</div>
-   <div class="header-list">
-     </div>
-     </div>
-     </div>
-     
-     <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="news.html">News</a></li>
-  <li><a href="muffins.html">Muffins</a></li>
-  <li><a href="about.html">About</a></li>
-  <li><a href="contacts.html">Contact form</a></li>
-</ul>
-
-     
-     <h2>AND JUST FOR FUN</h2>
-    <h3> press the muffon button</h3>
-    
-       <img src="https://tr.rbxcdn.com/18fff848f525e3a9930646d66d97652c/420/420/Decal/Png"
-		alt="Earth" id="pic" class="portrait"
-		onclick="changeImage()"
-		width="464px" height="298px"
-		style="cursor:pointer">
-    
-  </body>
+<html>
+<head>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	<script>
+	       var mysrc = "muffin.jpg";
+	       function changeImage() {
+	           if (mysrc == "mars.jpg") {
+	               document.images["pic"].src = "https://tr.rbxcdn.com/18fff848f525e3a9930646d66d97652c/420/420/Decal/Png";
+	               document.images["pic"].alt = "muffin";
+	               mysrc = "earth.jpg";
+	           } else {
+	               document.images["pic"].src = "https://media1.tenor.com/images/d44b7fb9c3d6541bfe31b65df136471c/tenor.gif?itemid=11216394";
+	               document.images["pic"].alt = "button";
+	               mysrc = "mars.jpg";
+	           }
+	       }
+	</script>
+	<title></title>
+</head>
+<body>
+	<div id="banner">
+		<div class="head">
+			<div class="header-logo">
+				Muffin Button
+			</div>
+			<div class="header-list"></div>
+		</div>
+	</div>
+	<ul>
+		<li>
+			<a href="index.html">Home</a>
+		</li>
+		<li>
+			<a href="news.html">News</a>
+		</li>
+		<li>
+			<a href="muffins.html">Muffins</a>
+		</li>
+		<li>
+			<a href="about.html">About</a>
+		</li>
+		<li>
+			<a href="contacts.html">Contact form</a>
+		</li>
+	</ul>
+	<h2>AND JUST FOR FUN</h2>
+	<h3>press the muffon button</h3><img alt="Earth" class="portrait" height="300px" id="pic" onclick="changeImage()" src="https://tr.rbxcdn.com/18fff848f525e3a9930646d66d97652c/420/420/Decal/Png" style="cursor:pointer" width="460px">
+</body>
+</html>
