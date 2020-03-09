@@ -9,24 +9,23 @@ div {
   position: relative;
   animation-name: example;
   animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-delay: 2s;
+  animation-timing-function: line;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-}
+} /* this changes animation and style properties*/
 
 @keyframes example {
   0%   {background-color: #ff00f2; left:50px; top:09px;}
   25%  {background-color: #9000ff; left:240px; top:0px;}
   50%  {background-color:#00aeff; left:180px; top:250px;}
-  75%  {background-color: #fff200; left:90px; top:150px;}
+  75%  {background-color: #fff200; left:800px; top:150px;}
   100% {background-color: #ff0048; left:6px; top:5px;}
-    3% {background-color: #ff00f2; left:50px; top:09px;}
-  28%  {background-color: #9000ff; left:240px; top:0px;}
+    3% {background-color: #ff00f2; left:903px; top:09px;}
+  28%  {background-color: #9000ff; left:240px; top:50px;}
   53%  {background-color:#00aeff; left:180px; top:250px;}
   78%  {background-color: #fff200; left:90px; top:150px;}
-  95% {background-color: #ff0048; left:6px; top:5px;}
-}
+  100% {background-color: #ff0048; left:1000px; top:10px;}
+} /* this is what makes the div move around and change the background colour*/
 </style>
 </head>
 <body>
@@ -49,6 +48,6 @@ div {
 	</ul>
 <div><img src="https://www.laconchabakery.com/wp-content/uploads/2017/01/blueberry_muffin_500x500_circle.png">
 </div>
-
+<!-- sticking with the muffins-->
 </body>
 </html>
