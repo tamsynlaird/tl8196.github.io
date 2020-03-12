@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
-	  <link rel="shortcut icon" href="https://clipartart.com/images250_/blue-muffin-clipart.png" type="image/png">
+  <link rel="shortcut icon" href="https://clipartart.com/images250_/blue-muffin-clipart.png" type="image/png">
 <link rel="icon" href="https://clipartart.com/images250_/blue-muffin-clipart.png" type="image/png">
+  
+  
 	<link href="styles.css" rel="stylesheet" type="text/css">
 	<title></title>
 </head>
@@ -32,10 +33,16 @@
 		<li>
 			<a href="contacts.html">Contact form</a>
 		</li>
+				<li>
+			<a href="seven.html">7deadly ranks</a>
+		</li>
 	</ul>
-	<div class="container">
-		<form action="action_page.php">
-			<label for="fname" id="first">First Name</label> <input id="fname" name="firstname" placeholder="Your First Name..." type="text"> <label for="lname" id="last">Last Name</label> <input id="lname" name="lastname" placeholder="Your Last Name..." type="text"> <label for="country" id="planet">Country/Planet</label> <select id="country" name="country">
+	<div class="container"> <!-- this makes a container/border around the form and allows me to gove a muffin background with rounded edges -->
+			<label for="fname" id="first">First Name</label>
+			<input id="fname" name="firstname" placeholder="Your First Name..." type="text"> 
+			<label for="lname" id="last">Last Name</label> <input id="lname" name="lastname" placeholder="Your Last Name..." type="text">
+			<label for="country" id="planet">Country/Planet</label>
+			<select id="country" name="country"> <!-- this makes the country option a dropdown option other tan words listed under -->
 				<option value="newzealand">
 					New Zealand
 				</option>
@@ -66,9 +73,12 @@
 				<option value="livelong">
 					Vulcan
 				</option>
-			</select> <label for="E-mail" id="mail">E-mail</label> <input id="Email" name="lastname" placeholder="Your E-mail adress" type="text"> <label for="subject" id="sub">Subject</label> 
-			<textarea id="subject" name="subject" placeholder="Write something........Please.....QUACK!" style="height:213px"></textarea> <button class="button" formaction="submit.html" onclick="window.location.href = 'submit.html';" type="submit">Submit</button>
-		</form>
+				<!-- these are the options for the country selection area -->
+				
+			</select> <label for="E-mail" id="mail">E-mail</label>
+			<input id="Email" placeholder="Your E-mail adress" type="text"> <label for="subject" id="sub">Subject</label> 
+			<textarea id="subject" name="subject" placeholder="Write something........Please.....QUACK!" style="height:213px"></textarea> 
+			<button class="button" formaction="submit.html" onclick="window.location.href = 'submit.html';" type="submit">Submit</button> <!-- this takes you to another page to confirm you filled the contact form  -->
 	</div>
 </body>
 </html>
