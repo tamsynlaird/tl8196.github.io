@@ -9,8 +9,9 @@
 	padding-top: 34px;
 	height: 250px;
 }
-.body {
+#body {
 	background-color: #ff5252;
+	margin: auto;
 }
 ul {
 	position: sticky;
