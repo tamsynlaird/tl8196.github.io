@@ -154,8 +154,9 @@ input[type=submit]:hover {
 	border-radius: 3px;
 	background-image: url(https://bakerbynature.com/wp-content/uploads/2019/03/blueberrybananamuffins12-1-of-1.jpg);
 	padding: 13px;
-	width: 49%;
+	width: 40%;
 	float: right;
+	padding-right: 25px;
 }
 #first {
 	color: #ffffff;
