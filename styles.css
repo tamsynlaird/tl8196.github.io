@@ -55,14 +55,11 @@ li a:hover {
 	text-align: center;
 }
 #family {
-	height: 340px;
-	width: 440px;
+	width: 490px;
 	display: block;
-	float: right;
-}
-#family {
 	border: 10px dotted #c7ae08;
 	margin-left: 35px;
+	float: right;
 }
 #swim {
 	border: 10px dotted #f7d600;
@@ -82,16 +79,26 @@ li a:hover {
 	float: right;
 }
 #spaceduck {
-	height: 250px;
-	width: 250px;
+	height: 200px;
+	width: 200px;
+	float: left;
 }
+
 #qqqqq {
 	border: 9px dotted #6e5f00;
-	float: right;
+	height: 200px;
+	width: 200px;
+	float:left;
 }
-#qqqqq {
-	height: 250px;
-	width: 250px;
+
+#firstspaceduck {
+ float: right;
+  width: 200px;
+}
+
+#duckyfam {
+  width: 100px;
+  float:left;
 }
 /**contact.html styling starts here**/
 
@@ -201,10 +208,32 @@ input[type=submit]:hover {
 }
 
 #kurama {
-  width: 58%;
+  width: 52%;
   float:left;
 }
 
+#suika {
+  height:300px;
+}
 
+#strawmuf{
+  height:250px;
+}
+
+#roshi {
+  width:100%;
+}
+
+#fuzzhead {
+  height:350px;
+}
+
+#koro {
+  height:360px;
+}
+
+#balloons {
+  height: 200px;
+}
 
 
