@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
+  
+  
 <head>
   <link rel="shortcut icon" href="https://clipartart.com/images250_/blue-muffin-clipart.png" type="image/png">
 <link rel="icon" href="https://clipartart.com/images250_/blue-muffin-clipart.png" type="image/png">
   
-  
-	<link href="styles.css" rel="stylesheet" type="text/css">
-	<title></title>
+  	<link href="styles.css" rel="stylesheet" type="text/css">
 </head>
+
+
 <body id="body">
-	<div id="banner">
-		<div class="headER">
-			<div class="header-logo">
+		<div class="head">
 				Contact Form
 			</div>
+			
+			
 			<div class="header-list"></div>
-		</div>
-	</div>
 	<ul>
 		<li>
 			<a href="index.html">Home</a>
@@ -34,13 +34,17 @@
 			<a href="seven.html">7deadly ranks</a>
 		</li>
 	</ul>
-		<img id="kurama" src="https://i.pinimg.com/originals/25/7a/e0/257ae0873c7a62240a1d83f8ed8f9fe3.png">
 	
-	<div class="container"> <!-- this makes a container/border around the form and allows me to gove a muffin background with rounded edges -->
-			<label for="fname" id="first">First Name</label>
-			<input id="fname" name="firstname" placeholder="Your First Name..." type="text"> 
-			<label for="lname" id="last">Last Name</label> <input id="lname" name="lastname" placeholder="Your Last Name..." type="text">
-			<label for="country" id="planet">Country/Planet</label>
+	
+		<img id="kurama" src="https://i.pinimg.com/originals/25/7a/e0/257ae0873c7a62240a1d83f8ed8f9fe3.png"> <!--baby kurama is here to fill out the boring emptiness-->
+	
+	
+	<div id="container"> <!-- this makes a container/border around the form and allows me to give a muffin background with rounded edges when I style it in the css page -->
+			<label for="fname" class="info">First Name</label>
+			<input id="fname" name="firstname" placeholder="Your First Name..." type="text"> <!-- the placeholder function puts unofficial text to suggest what the viewer should put there -->
+			<label for="lname" class="info">Last Name</label> 
+			<input id="lname" name="lastname" placeholder="Your Last Name..." type="text">
+			<label for="country" class="info">Country/Planet</label>
 			<select id="country" name="country"> <!-- this makes the country option a dropdown option other tan words listed under -->
 				<option value="newzealand">
 					New Zealand
@@ -72,12 +76,14 @@
 				<option value="livelong">
 					Vulcan
 				</option>
-				<!-- these are the options for the country selection area -->
-				
-			</select> <label for="E-mail" id="mail">E-mail</label>
-			<input id="Email" placeholder="Your E-mail adress" type="text"> <label for="subject" id="sub">Subject</label> 
+				<!-- these are the options for the country selection area sorry if your home/area is not included -->
+			</select> <label for="E-mail" class="info">E-mail</label>
+			<input id="Email" placeholder="Your E-mail adress" type="text"> 
+			<label for="subject" class="info">Subject</label> 
 			<textarea id="subject" name="subject" placeholder="Write something........Please.....QUACK!" style="height:213px"></textarea> 
-			<button class="button" formaction="submit.html" onclick="window.location.href = 'submit.html';" type="submit">Submit</button> <!-- this takes you to another page to confirm you filled the contact form  -->
+			<button id="button" formaction="submit.html" onclick="window.location.href = 'submit.html';" type="submit">Submit</button> <!-- this takes you to another page to confirm you filled the contact form  -->
 	</div>
+	
+	
 </body>
 </html>
