@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html>
+  
+  
 <head>
   <link rel="shortcut icon" href="https://clipartart.com/images250_/blue-muffin-clipart.png" type="image/png">
 <link rel="icon" href="https://clipartart.com/images250_/blue-muffin-clipart.png" type="image/png">
+  <link href="styles.css" rel="stylesheet" type="text/css">
   
-  	<link href="styles.css" rel="stylesheet" type="text/css">
-<style> 
+<style> /** this is how to style things without a css page, I style it here because it's easier to keep up with here**/
+
 #yes {
   width: 130px;
   background-color: #ff0099;
   position: relative;
-  animation-name: example;
-  animation-duration: 7s;
-  animation-timing-function: linear;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+  animation-name: YES; /** name of animation**/
+  animation-duration: 7s; /** how long it takes for the image to go one way**/
+  animation-iteration-count: infinite;/** how long the animation lasts for**/
+  animation-direction: alternate; /* the direction the animation moves*/
 } /* this changes animation and style properties*/
 
-@keyframes example {
-  100%   {background-color: #f00; left:0px; top:0px;}
-  0%   {background-color: #ff00f2; left:100%; top:0px;}
-  100%  {background-color: #9000ff; left:0px; top:100px;}
-  0%  {background-color:#00aeff; left:100%; top:100px;}
-  100%  {background-color: #fff200; left:0px; top:0px;}
-  0% {background-color: #ff0048; left:100%; top:0px;}
-    100% {background-color: #ff00f2; left:0px; top:100px;}
-  0%  {background-color: #9000ff; left:100%; top:100px;}
-  100%  {background-color:#00aeff; left:0px; top:0px;}
-  0%  {background-color: #fff200; left:100%; top:0px;}
-} /* this is what makes the div move around and change the background colour*/
+@keyframes YES {
+  0%   { left:100%; top:0px;}
+  90%   { left:0px; top:0px;}
+  0%   { left:100%; top:0px;}
+  90%  { left:0px; top:100px;}
+  0%  { left:100%; top:100px;}
+  90%  { left:0px; top:0px;}
+  0% { left:100%; top:0px;}
+  90% { left:0px; top:100px;}
+  0%  { left:100%; top:100px;}
+  90%  { left:0px; top:0px;}
+  0%  { left:100%; top:0px;}
+} /* this is what makes the image move around*/
 </style>
 </head>
+
+
 <body>
 	<ul>
 		<li>
@@ -50,8 +54,12 @@
 			<a href="seven.html">7deadly ranks</a>
 		</li>
 	</ul>
+	
+	
 <div><img id="yes" src="https://i.pinimg.com/originals/28/97/49/2897492e22a26a2348c0e35033a894d9.jpg">
 </div>
 <!-- sticking with the muffins-->
+
+
 </body>
 </html>
