@@ -200,7 +200,6 @@ input[type=text], select, textarea {
   font-size: 55px;
   font-weight: bold;
   background-color: #00e0b7;
-  text-align: center;
 }
 .top{
   height: 275px;
@@ -213,7 +212,6 @@ input[type=text], select, textarea {
   font-size: 35px;
   font-weight: bold;
   background-color: #00e0b7;
-  text-align: center;
 }
 .side {
   float: right;
