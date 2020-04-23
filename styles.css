@@ -1,107 +1,78 @@
-.header {
-	font-size: 38px;
-	color: #dea216;
-	border: 10px solid #212121;
-	background: url(https://thumbs.gfycat.com/CommonGoodnaturedJunco-size_restricted.gif);
-	text-shadow: 8px -7px 13px #ffd447;
-	font-family: Arial Black;
-	text-align: center;
-	padding-top: 34px;
-	height: 250px;
+/** index.html styling obviously starts here **/
+/** the difference between px(pixels) and % (percentages) is that px will always stay the amount and not change based on the size of the screen but % change and cover the % of a screen you have said it has to cover, px don't change to fit the size of the screen but % do  **/
+/** id=# class=.**/
+/** id-customises 1 thing. class-customises everything that falls into it the same way. **/
+#header {
+	font-size: 38px; /** font-size clearly changes font size  **/
+	color: white;   /**  color changes the color of the text **/
+	border: 10px solid #212121; /**  border gives border based on what design and size you give it **/
+	background: url(https://www.gifimage.net/wp-content/uploads/2017/10/muffin-button-gif-5.gif); /** original muffin button, background changes the background and url is used to add an image or gift or link **/
+	text-shadow: 13px -14px 13px white; /** text-shadow obviously gives a shadow to the text based on where you place it through your coordinates **/
+	font-family: Arial Black; /** font-family changes the font style **/
+	text-align: center; /** text-align aligns the text into the position you choose **/
+	padding-top: 40px; /** padding spaces the element by the numbers you put it, you can also choose where the padding is directed by adding -top, -left, -bottom or -right  **/
+	height: 250px; /** height boviously changes the height of what your customising**/
 }
-#body {
-	background-color: #ff5252;
-	margin: auto;
+#home {
+  background-color: #c4ebff; /** background-color changes the colour of the background **/
 }
+
 ul {
-	position: sticky;
-	position: sticky;
-	top: 0;
-}
-ul {
-	list-style-type: none;
-	margin-top: 5px;
+	position: sticky; /**  position manipulates the position of the navbar, sticky means it sticks to the top of the page while scrolling **/
+	top: 2px; /** top is used to add space between the navbar and top of the website while scrolling down **/
+	list-style-type: none; /** list-style-type is used to add bullet points or in this case ge rid of them by putting 'none' **/
+	margin-top: 5px; /** margin adds space between two seperate things so you can tell their seperate and make it looki better like padding you can choose where the margin used  **/
 	padding: 0;
-	overflow: hidden;
+	overflow: hidden; /** overflow is used to deal with text that may overflow a content box or in this case the navbar  **/
 	background-color: #333;
 }
 li {
-	float: left;
+	float: left; /** float is used to position something to the left or right so it doesn't just end up in a random spot or take up any unnecessary space that makes it inconvenient **/
 }
 li a {
-	display: block;
+	display: block; /** display changes display behaviour **/
 	color: #f5e042;
 	text-align: center;
 	padding: 14px 16px;
-	text-decoration: none;
+	text-decoration: none; /** text-decoration adds decorational lines the default is underlined but you can get rid of it by andding 'none' **/
 }
-li a:hover {
+li a:hover { /** :hover means when the mouse is hovered over one of the 'a's it will change to what the css you put in says to change to **/
 	background-color: #ccfffe;
 	color: #200061;
 }
-.active {
-	background-color: #4CAF50;
-	color: white;
-}
+
 #uwu {
 	font-family: Arial Black;
 	font-size: 29px;
 	color: #574b00;
 	text-align: center;
 }
-.ducky {
-	font-family: Comic Sans MS;
-	color: #574b00;
-	text-align: center;
-}
-#family {
-	width: 490px;
-	display: block;
-	border: 10px dotted #c7ae08;
-	margin-left: 35px;
-	float: right;
-}
-#swim {
-	border: 10px dotted #f7d600;
-	text-align: center;
-}
 #ducky {
 	border: 9px dotted #ffef85;
 	float: right;
 }
-#quack {
-	text-align: center;
-	font-family: Comic Sans MS;
-	color: #e3b602;
+#swim {
+	border: 10px dotted #f7d600;
 }
 #spaceduck {
 	border: 9px dotted #6e5f00;
-	float: right;
-}
-#spaceduck {
 	height: 200px;
-	width: 200px;
+	width: 200px; /** width controls the width of something**/
 	float: left;
 }
-
 #qqqqq {
 	border: 9px dotted #6e5f00;
 	height: 200px;
 	width: 200px;
 	float:left;
 }
-
 #firstspaceduck {
  float: right;
   width: 200px;
 }
 
-#duckyfam {
-  width: 100px;
-  float:left;
-}
-/**contact.html styling starts here**/
 
+ /** this is the banner design for all pages but the home page and the pages without banners  **/
 .head {
 	font-size: 38px;
 	color: #dea216;
@@ -110,74 +81,38 @@ li a:hover {
 	text-shadow: 8px -7px 13px #ffd447;
 	font-family: Arial Black;
 	text-align: center;
-}
-/*news.html styling starts here*/
+} 
 
-.headER {
-	font-size: 38px;
-	color: #dea216;
-	border: 20px double #212121;
-	background: #fdffba;
-	text-shadow: 8px -7px 13px #ffd447;
-	font-family: Arial Black;
-	text-align: center;
-}
 
-#locust {
-  height: 200px;
-  width: 250px;
+/** muffin.html styling here  **/
+#dbza {
+  background-color: #ffee96;
 }
 
 
-
-
-
-
-
-
+/**contact.html styling starts here**/
+#body{
+  background-color:#ffb0cd;
+}
 input[type=text], select, textarea {
 	width: 100%;
 	padding: 13px;
 	border: 1px solid #2d0082;
-	border-radius: 3px;
-	box-sizing: border-box;
+	border-radius: 10px; /** border radius controls rounded edges of a border **/
+	box-sizing: border-box; /** box-sizing: border-box makes all the fill outs on the contact form the same size**/
 	margin-top: 7px;
 	margin-bottom: 13px;
-	resize: vertical
+	resize: vertical /** resize let's the user change the size of a box by dragging the bottom corner**/
 }
-input[type=submit] {
-	background-color: #00025c;
-	color: #e4b8ff;
-	padding: 12px 20px;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-}
-input[type=submit]:hover {
-	background-color: #f2ff00;
-	color: #8c7500;
-}
-.container {
-	border-radius: 3px;
-	background-image: url(https://bakerbynature.com/wp-content/uploads/2019/03/blueberrybananamuffins12-1-of-1.jpg);
+#container {
+	border-radius: 3px 30px;
+	background: url(https://bakerbynature.com/wp-content/uploads/2019/03/blueberrybananamuffins12-1-of-1.jpg);
 	padding: 13px;
 	margin: auto;
 	margin-right: 13px;
 	width: 40%;
 }
-#first {
-	color: #ffffff;
-}
-#last {
-	color: #ffffff;
-}
-#planet {
-	color: #ffffff;
-}
-#mail {
-	color: #ffffff;
-}
-#sub {
+.info {
 	color: #ffffff;
 }
 #country {
@@ -195,7 +130,7 @@ input[type=submit]:hover {
 #subject {
 	background-color: #d791ff;
 }
-.button {
+#button {
 	background-color: #44005c;
 	border: double #d14fff;
 	color: #ebb3ff;
@@ -204,36 +139,105 @@ input[type=submit]:hover {
 	display: inline-block;
 	font-size: 13px;
 	margin: 4px 2px;
-	cursor: pointer;
+	cursor: pointer; /** changes the mouse pointer shape **/
 }
-
 #kurama {
   width: 52%;
   float:left;
 }
 
+
+/** submit.html animation button design**/
+#anibutton {
+	background-color: orange;
+	border: dotted 3px blue;
+	color: blue;
+	padding: 22px 30px;
+	text-align: center;
+	display: block;
+	font-size: 22px;
+	margin: 1px 3px;
+	cursor: not-allowed; /** don't worry the button still works**/
+}
+
+/**gallery.html styling starts here**/
+#picper {
+  background-color: #b9ace8;
+}
 #suika {
   height:300px;
 }
-
 #strawmuf{
   height:250px;
 }
-
 #roshi {
   width:100%;
 }
-
 #fuzzhead {
   height:350px;
 }
-
 #koro {
   height:360px;
 }
-
 #balloons {
   height: 200px;
 }
 
 
+/** styling for seven.html starts here **/
+#NNT {
+  background-color: black;
+}
+.namesings{
+  height: 100%;
+  width: 60%;
+  color: #00400c;
+  float: left;
+  margin-right: 1px;
+}
+#pop {
+  color:#00400c;
+  font-size: 55px;
+  font-weight: bold;
+  background-color: #00e0b7;
+  text-align: center;
+}
+.top{
+  height: 275px;
+  padding: 3px;
+}
+#meliodas {
+  height:280px;
+}
+.z {
+  font-size: 35px;
+  font-weight: bold;
+  background-color: #00e0b7;
+  text-align: center;
+}
+.side {
+  float: right;
+  height: 100%;
+  width:39%;
+  margin-top: 55px;
+  margin-left:2px;
+  background-color: #ff8fd0;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.metion {
+  height: 180px;
+  padding: 3px;
+}
+.honor {
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+.team {
+  width: 250px;
+  float: right;
+  margin: 2px;
+}
