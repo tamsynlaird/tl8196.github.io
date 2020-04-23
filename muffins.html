@@ -4,32 +4,32 @@
   <link rel="shortcut icon" href="https://clipartart.com/images250_/blue-muffin-clipart.png" type="image/png">
 <link rel="icon" href="https://clipartart.com/images250_/blue-muffin-clipart.png" type="image/png">
   
+  
 	<link href="styles.css" rel="stylesheet" type="text/css">
-	<script>
+	<script> // javascript for muffinbutton  //
 	       var mysrc = "muffin.jpg";
 	       function changeImage() {
-	           if (mysrc == "mars.jpg") {
-	               document.images["pic"].src = "https://tr.rbxcdn.com/18fff848f525e3a9930646d66d97652c/420/420/Decal/Png";
+	           if (mysrc == "muffin.jpg") {
+	               document.images["pic"].src = "https://tr.rbxcdn.com/18fff848f525e3a9930646d66d97652c/420/420/Decal/Png"; // first image/displayed button //
 	               document.images["pic"].alt = "muffin";
-	               mysrc = "earth.jpg";
+	               mysrc = "goku.jpg"; // allows multiple clicks //
 	           } else {
-	               document.images["pic"].src = "https://media1.tenor.com/images/d44b7fb9c3d6541bfe31b65df136471c/tenor.gif?itemid=11216394";
+	               document.images["pic"].src = "https://media1.tenor.com/images/d44b7fb9c3d6541bfe31b65df136471c/tenor.gif?itemid=11216394"; // the goku and muffin gif  //
 	               document.images["pic"].alt = "button";
-	               mysrc = "mars.jpg";} }
+	               mysrc = "muffin.jpg";} } // first click //
 	</script>
 	<!-- this makes the button change image -->
-	
-	<title></title>
+
+
 </head>
-<body>
-	<div id="banner">
-		<div class="head">
-			<div class="header-logo">
+<body id="dbza"> <!--the muffin button is a refrence to dbza(dragon ball z abridged) just FYI-->
+
+		<div class="head"> <!-- the class "head" is used to style the banners for other pages, they all have the same design-->
 				Muffin Button
 			</div>
+			
+			
 			<div class="header-list"></div>
-		</div>
-	</div>
 	<ul>
 		<li>
 			<a href="index.html">Home</a>
@@ -48,14 +48,11 @@
 		</li>
 	</ul>
 	<!--I need to put this ul in here so I have the navbar on here to so I can continue to switch between pages -->
-	
-	<h2>AND JUST FOR FUN</h2>
-	<h3>press the muffon button</h3>
-	<img alt="Earth" class="portrait" height="300px" id="pic" onclick="changeImage()" src="https://tr.rbxcdn.com/18fff848f525e3a9930646d66d97652c/420/420/Decal/Png" style="cursor:pointer" width="460px"> <!-- this displays the image so I can make the button -->
-<!--I wnated to make a button so I took a reference and made the muffin button -->
 
 
-<img src="">
+	<img alt="goku" class="portrait" height="310px" id="pic" onclick="changeImage()" src="https://tr.rbxcdn.com/18fff848f525e3a9930646d66d97652c/420/420/Decal/Png" style="cursor:pointer" width="440px"> <!-- this displays the image so I can make the button, it's here cause I need it under all the stuff that's displayed above it, I can also change it's appearance here and also the onclick function allow the button to work -->
+<!--I wanted to make a button so I took a reference and made the muffin button -->
+
 
 </body>
 </html>
